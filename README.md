@@ -11,7 +11,7 @@
 
 • توكن البوت
 
-[![التنصيب عبرهيروكوط](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulrahmman8894/TikTok)
+[![التنصيب عبرهيروكوط](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/americagithup/TikTok)
 
 #### المميزات:
 
@@ -32,8 +32,8 @@
 
 ## قناه سورس كود البوت:
 
-[![القناه](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/MR_X_10)
-[![الكروب](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/MR_X_8)
+[![القناه](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/TE_NetFlix)
+[![الكروب](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/us7a5)
 
 
 #### LICENSE
