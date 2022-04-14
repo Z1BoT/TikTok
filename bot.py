@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 API_HASH = os.environ['API_HASH']
 APP_ID = int(os.environ['APP_ID'])
 BOT_TOKEN = os.environ['BOT_TOKEN']
-downloads = '/downloads/{}/'
+downloads = './downloads/{}/'
 
 START_BUTTONS=[
     [
@@ -16,10 +16,10 @@ START_BUTTONS=[
 
 DL_BUTTONS=[
     [
-        InlineKeyboardButton('بدون علامه مائية', callback_data='nowm'),
-        InlineKeyboardButton('علامة مائية', callback_data='wm'),
+        InlineKeyboardButton('بدون علامه . مائية', callback_data='nowm'),
+        InlineKeyboardButton('علامة . مائية', callback_data='wm'),
     ],
-    [InlineKeyboardButton('مقطع صوتي', callback_data='voice')],
+    [InlineKeyboardButton('مقطع. صوتي', callback_data='voice')],
 ]
 
 
