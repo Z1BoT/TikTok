@@ -23,7 +23,7 @@ DL_BUTTONS=[
 ]
 
 
-jmthon = Client('TikTok', api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+M_18_K = Client('TikTok', api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 async def run_cmd(cmd: str) -> Tuple[str, str, int, int]:
   args = shlex.split(cmd)
@@ -38,12 +38,12 @@ async def run_cmd(cmd: str) -> Tuple[str, str, int, int]:
       process.pid,
   )
 
-@jmthon.on_message(filters.command('start') & filters.private)
+@M_18_K.on_message(filters.command('start') & filters.private)
 async def _start(bot, update):
   await update.reply_text(f"** مرحبا أنا بوت تحميل من التيكتوك يمكنك تحميل الفيديوهات او المقاطع الصوتية من هنا فقط ارسل رابط المقطع هنا**", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
 
 # Downloader for tiktok
-@jmthon.on_message(filters.regex(pattern='.*http.*') & filters.private)
+@M_18_K.on_message(filters.regex(pattern='.*http.*') & filters.private)
 async def _tiktok(bot, update):
   url = update.text
   session = requests.Session()
@@ -53,7 +53,7 @@ async def _tiktok(bot, update):
   await update.reply('عليك تحديد نوع التنزيل من الاسفل ', True, reply_markup=InlineKeyboardMarkup(DL_BUTTONS))
 
 # Callbacks
-@jmthon.on_callback_query()
+@M_18_K.on_callback_query()
 async def _callbacks(bot, cb: CallbackQuery):
   if cb.data == 'nowm':
     dirs = downloads.format(uuid.uuid4().hex)
@@ -127,4 +127,4 @@ async def _callbacks(bot, cb: CallbackQuery):
     await bot.send_audio(update.chat.id, f'{ttid}.mp3',)
     shutil.rmtree(dirs)
 
-jmthon.run()
+M_18_K.run()
