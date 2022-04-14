@@ -8,8 +8,8 @@
     "tiktok"
   ],
   "success_url": "https://t.me/us7a5",
-  "website": "https://github.com/americagithup",
-  "repository": "https://github.com/americagithup/TikTok",
+  "website": "https://github.com/Z1BoT",
+  "repository": "https://github.com/Z1BoT/TikTok",
   "env": {
     "BOT_TOKEN": {
       "description": "ضع هنا توكن البوت احصل عليه من هنا  https://t.me/botfather",
