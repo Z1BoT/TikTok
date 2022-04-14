@@ -1,4 +1,4 @@
-## TikTok JmThon
+## TikTok
 ---
 
 بوت تيليجرام لتحميل الفيديوهات من التيك توك
@@ -11,7 +11,7 @@
 
 • توكن البوت
 
-[![التنصيب عبرهيروكوط](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/americagithup/TikTok-)
+[![التنصيب عبرهيروكوط](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Z1BoT/TikTok)
 
 #### المميزات:
 
